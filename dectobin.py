@@ -16,16 +16,6 @@ def dectobin(n):
     for i in range(len(b) - 1, -1, -1):
         string_kosong += str(b[i])
     return string_kosong
-print(""""
-#######################
-╔╦╗┬ ┬┬  ╔╗ ┬ ┬┌┬┐┬   ┬ 
- ║║││││  ╠╩╗│ │ │││  ┌┼─
-═╩╝└┴┘┴  ╚═╝└─┘─┴┘┴  └┘ 
-╔╦╗┌─┐┬ ┬┌─┐┌─┐┌─┐      
-║║║├─┤├─┤├┤ └─┐├─┤      
-╩ ╩┴ ┴┴ ┴└─┘└─┘┴ ┴     
-####################### 
-      """)
 n = int(-1)
 while n < 0:
     n = int(input("Masukkan Bilangan Desimal :"))
